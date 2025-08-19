@@ -15,8 +15,44 @@ let btsScore = 0;
 let btsStartTime = 0;
 let btsTimer = null;
 
-// Question bank will be loaded from external file
-// The questionBank variable is available from questionBank.js
+// Question bank will be loaded from CSV files
+let questionBank = {};
+
+// Display question count information
+function displayQuestionCounts() {
+    if (questionBank && Object.keys(questionBank).length > 0) {
+        console.log('Question Bank Summary:');
+        Object.keys(questionBank).forEach(subject => {
+            console.log(`${subject.toUpperCase()}:`);
+            Object.keys(questionBank[subject]).forEach(difficulty => {
+                const count = questionBank[subject][difficulty].length;
+                console.log(`  ${difficulty}: ${count} questions`);
+            });
+        });
+        
+        // Also log to the page for user verification
+        const totalQuestions = Object.values(questionBank).reduce((total, subject) => {
+            return total + Object.values(subject).reduce((subTotal, difficulty) => {
+                return subTotal + difficulty.length;
+            }, 0);
+        }, 0);
+        
+        console.log(`Total Questions Loaded: ${totalQuestions}`);
+        
+        // Add a small info display on the main menu
+        const mainMenu = document.getElementById('mainMenuPage');
+        if (mainMenu) {
+            const existingInfo = mainMenu.querySelector('.question-count-info');
+            if (!existingInfo) {
+                const infoDiv = document.createElement('div');
+                infoDiv.className = 'question-count-info';
+                infoDiv.style.cssText = 'text-align: center; color: white; margin-top: 20px; font-size: 14px;';
+                infoDiv.innerHTML = `Questions loaded: ${totalQuestions} total`;
+                mainMenu.appendChild(infoDiv);
+            }
+        }
+    }
+}
 
 // Page navigation functions
 function showPage(pageId) {
@@ -36,6 +72,12 @@ function login() {
     const errorDiv = document.getElementById('loginError');
     
     if (password === 'M0n7R0ckTSAT3c#B0wl') {
+        // Check if questions are loaded
+        if (!csvLoader.isLoaded() && Object.keys(questionBank).length === 0) {
+            errorDiv.textContent = 'Questions are still loading. Please wait a moment and try again.';
+            return;
+        }
+        
         currentUser = username;
         errorDiv.textContent = '';
         showPage('mainMenuPage');
@@ -278,8 +320,8 @@ function startPractice() {
     const subject = document.getElementById('subjectSelect').value;
     const difficulty = document.getElementById('difficultySelect').value;
     
-    // Get questions for selected subject and difficulty
-    practiceCards = questionBank[subject][difficulty];
+    // Get questions for selected subject and difficulty and SHUFFLE them
+    practiceCards = shuffleArray([...questionBank[subject][difficulty]]);
     currentCardIndex = 0;
     
     // Update practice page info
@@ -501,9 +543,37 @@ function retakeQuiz() {
 }
 
 // Handle Enter key in login form and load question bank
-document.addEventListener('DOMContentLoaded', function() {
-    // Load the question bank from external file
-    // The questionBank variable is already available from questionBank.js
+document.addEventListener('DOMContentLoaded', async function() {
+    // Show loading indicator
+    const loadingIndicator = document.getElementById('loadingIndicator');
+    const loginForm = document.querySelector('.login-form');
+    
+    loadingIndicator.style.display = 'block';
+    loginForm.style.display = 'none';
+    
+    // Load questions from CSV files
+    try {
+        questionBank = await csvLoader.loadAllQuestions();
+        console.log('Questions loaded from CSV:', questionBank);
+        
+        // Display question counts for verification
+        displayQuestionCounts();
+        
+        // Hide loading indicator and show login form
+        loadingIndicator.style.display = 'none';
+        loginForm.style.display = 'block';
+        
+    } catch (error) {
+        console.error('Failed to load CSV questions, using fallback:', error);
+        questionBank = csvLoader.getFallbackQuestions();
+        
+        // Display question counts for verification
+        displayQuestionCounts();
+        
+        // Hide loading indicator and show login form
+        loadingIndicator.style.display = 'none';
+        loginForm.style.display = 'block';
+    }
     
     // Mobile-specific optimizations
     setupMobileOptimizations();

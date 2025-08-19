@@ -15,6 +15,10 @@
     <div id="loginPage" class="page active">
         <div class="login-container">
             <h1>TSA Tech Bowl</h1>
+            <div id="loadingIndicator" class="loading-indicator" style="display: none;">
+                <p>Loading questions from CSV files...</p>
+                <div class="loading-spinner"></div>
+            </div>
             <div class="login-form">
                 <input type="text" id="username" placeholder="Username" required>
                 <input type="password" id="password" placeholder="Password" required>
@@ -209,7 +213,7 @@
         </div>
     </div>
 
-    <script src="questionBank.js"></script>
+    <script src="csvQuestionLoader.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
