@@ -1,0 +1,101 @@
+#,Question,Correct Answer,Distractor 1,Distractor 2,Distractor 3
+1,What does GUI stand for?,Graphical User Interface,General Utility Input,Global User Integration,Graphical Universal Instruction
+2,What does BIOS do in a computer?,Starts the operating system,Runs antivirus,Displays graphics,Stores user files
+3,Which number system is hexadecimal based on?,16,8,10,2
+4,What does SQL manage?,Databases,Operating systems,Graphics,Hardware devices
+5,Which type of memory is fastest?,Cache,RAM,ROM,Hard Drive
+6,Which company developed the Java language?,Sun Microsystems,Microsoft,IBM,Apple
+7,Which logic gate outputs true only if both inputs are true?,AND,OR,NOT,XOR
+8,What is Moore’s Law about?,Processor power doubles every ~2 years,Internet speeds double yearly,Computer prices drop in half,Screen sizes double
+9,What is cybersecurity’s main goal?,Protect data and systems,Speed up computers,Sell new software,Store passwords
+10,What is an IP v6 address based on?,128-bit system,32-bit system,64-bit system,16-bit system
+11,Which is an example of open-source OS?,Linux,Windows,macOS,Chrome OS
+12,What is the difference between RAM and ROM?,"RAM is temporary, ROM is permanent","RAM is permanent, ROM is temporary",Both store permanently,Both store temporarily
+13,What is the main function of a compiler?,Translate code into machine language,Store variables,Debug programs,Format hard drives
+14,What does encryption do to data?,Scrambles it into unreadable form,Deletes it permanently,Copies it to a backup,Compresses file size
+15,Which is a biometric security method?,Fingerprint scanner,Password,PIN code,Username
+16,What does HTTPs signify compared to HTTP?,Secure encryption,Higher speed,Different protocol,Wireless connection
+17,What is artificial intelligence primarily designed to do?,Simulate human intelligence,Store passwords,Increase memory,Process graphics faster
+18,What is the function of an operating system?,Manage hardware and software,Store permanent files,Run internet browsers,Print documents
+19,What is big data characterized by?,"Volume, Velocity, Variety","Small, Fast, Simple","Compact, Secure, Easy","Storage, Speed, Cost"
+20,What is cloud computing’s main advantage?,Remote access to resources,Faster hardware,Free software,No electricity needed
+21,What does VoIP stand for?,Voice over Internet Protocol,Voice on Internal Processing,Virtual Online IP,Verified Output Internet Protocol
+22,Which frequency band does Wi-Fi commonly use?,2.4 GHz and 5 GHz,1 GHz and 2 GHz,10 GHz and 20 GHz,100 MHz and 200 MHz
+23,Which device directs data packets across networks?,Router,Switch,Hub,Firewall
+24,What is bandwidth measured in?,Bits per second,Volts,Amperes,Watts
+25,What does DNS do?,Translates domain names into IP addresses,Protects against viruses,Stores emails,Encrypts websites
+26,What is latency in communication?,Delay in signal transfer,Strength of signal,Cost of service,Storage capacity
+27,Which cable has the highest data transfer speed?,Fiber Optic,Coaxial,Twisted Pair,Copper Wire
+28,What does 5G stand for?,Fifth Generation Mobile Network,5 Gigabytes Internet,Fast Global Network,Five Gateways
+29,Which invention allowed instant long-distance voice communication?,Telephone,Telegraph,Radio,Television
+30,What is the purpose of a firewall?,Block unauthorized access,Speed up computers,Boost Wi-Fi,Store passwords
+31,Which medium was first used for digital communication?,Telegraph,Telephone,Radio,Television
+32,What is a VPN used for?,Secure internet connections,Speed up browsing,Block viruses,Install apps
+33,What does SMS limit messages to?,160 characters,500 characters,"1,000 characters",50 characters
+34,Which protocol sends emails?,SMTP,FTP,HTTP,DNS
+35,Which protocol receives emails?,IMAP,HTML,SQL,IPX
+36,What does RFID stand for?,Radio Frequency Identification,Random File Input Data,Rapid Frequency Internet Device,Registered File ID
+37,Which technology replaced pagers?,Cell Phones,Fax Machines,Telegrams,Radios
+38,Which part of the electromagnetic spectrum do cell phones use?,Radio Waves,Infrared,Gamma Rays,Visible Light
+39,Which invention allowed live broadcast television?,Cathode Ray Tube,Microchip,Transistor,Antenna
+40,What is net neutrality?,All internet data treated equally,Free access for everyone,Unlimited internet,Paid fast lanes only
+41,What invention revolutionized road transport in the 20th century?,Automobile,Train,Subway,Bicycle
+42,Which system ensures airplanes land safely?,Air Traffic Control,GPS,Radar,Autopilot
+43,What is the purpose of cruise control in cars?,Maintain constant speed,Stop quickly,Increase acceleration,Save radio stations
+44,Which type of train uses magnets for levitation?,Maglev,Diesel,Steam,Subway
+45,What is regenerative braking?,Converts kinetic energy into electrical energy,Stores braking power,Stops cars faster,Protects tires
+46,Which invention enabled the space race?,Rocket,Jet Engine,Satellite,Telescope
+47,Which vehicle is designed for underwater travel?,Submarine,Airplane,Hovercraft,Spaceship
+48,Which invention made crossing the U.S. faster in the 1800s?,Railroads,Steamboats,Automobiles,Highways
+49,What is a hyperloop?,High-speed transport in vacuum tubes,Underground subway,Drone system,Rocket transport
+50,Which system reduces car skidding?,ABS (Anti-lock Braking System),Cruise Control,Airbags,Suspension
+51,Which fuel is most common in commercial aviation?,Jet A Fuel,Gasoline,Hydrogen,Diesel
+52,What makes hybrid cars efficient?,Use gasoline and electricity,Fully electric,Run on solar,Extra fuel tanks
+53,Which system warns drivers of vehicles in blind spots?,Blind Spot Detection,Cruise Control,Anti-lock Brakes,Power Steering
+54,What technology powers Tesla cars?,Electric Motors,Gasoline Engines,Steam Engines,Hybrid Engines
+55,Which invention first allowed humans into orbit?,Vostok Rocket,Apollo Capsule,Space Shuttle,Saturn V
+56,What is the primary purpose of drones?,Remote aerial tasks,Drive on highways,Swim underwater,Detect earthquakes
+57,Which transport technology reduces friction to near zero?,Maglev,Bicycle,Car,Airplane
+58,Which invention made global shipping efficient?,Shipping Containers,Wooden Boats,Canoes,Airplanes
+59,What type of bridge is the Golden Gate Bridge?,Suspension,Arch,Beam,Truss
+60,Which system keeps satellites from falling to Earth?,Gravity + Orbital Velocity,Magnetism,Solar Pressure,Nuclear Power
+61,What is additive manufacturing?,3D Printing,Casting,Carving,Molding
+62,What is subtractive manufacturing?,Removing material,Adding material,Recycling,Recycling
+63,Which metal is an alloy of iron and carbon?,Steel,Bronze,Brass,Aluminum
+64,What does CNC machining use?,Computer-controlled tools,Manual labor,Chemical reactions,Lasers only
+65,Which process uses intense heat to join metals?,Welding,Painting,Casting,Molding
+66,What is a smart material?,Changes properties in response to environment,Lightweight only,Always flexible,Always magnetic
+67,Which manufacturing process produces identical products quickly?,Mass Production,Handcrafting,Custom Manufacturing,Reverse Engineering
+68,Which tool measures electrical current?,Ammeter,Voltmeter,Ohmmeter,Thermometer
+69,Which safety device shuts down machines in emergencies?,Kill Switch,Fuse,Circuit,Reset Button
+70,What is nanotechnology?,Engineering at atomic scale,Building large machines,Printing large layers,Internet security
+71,Which material is a polymer?,Plastic,Steel,Copper,Glass
+72,Which process creates thin metal sheets?,Rolling,Forging,Casting,Welding
+73,Which process strengthens steel using heat and cooling?,Tempering,Polishing,Casting,Cutting
+74,Which symbol means toxic?,Skull and Crossbones,Fire,Triangle,Recycle Symbol
+75,What is ergonomics in design?,Designing for human comfort and efficiency,Designing for looks,Designing for low cost,Designing only for speed
+76,Which process uses molds for shaping materials?,Casting,Welding,Rolling,Tempering
+77,Which material is strongest per weight?,Carbon Fiber,Steel,Aluminum,Titanium
+78,Which device controls machine speed?,Governor,Motor,Pulley,Gear
+79,Which method produces hollow glass bottles?,Blow Molding,Injection Molding,Carving,Casting
+80,Which factor does quality control check?,Accuracy of production,Price of product,Size of factory,Color of product
+81,What law states energy cannot be created or destroyed?,Law of Conservation of Energy,Newton’s 3rd Law,Ohm’s Law,Moore’s Law
+82,What device converts mechanical energy into electricity?,Generator,Motor,Battery,Transformer
+83,What device converts electrical energy into mechanical energy?,Motor,Generator,Battery,Capacitor
+84,What is the unit of electrical resistance?,Ohm,Watt,Volt,Ampere
+85,What does a transformer change?,Voltage,Current,Resistance,Power
+86,What type of current flows in one direction only?,Direct Current (DC),Alternating Current (AC),Static,Reversed
+87,Which energy source is renewable?,Wind,Coal,Oil,Natural Gas
+88,Which energy source is nonrenewable?,Coal,Wind,Solar,Hydroelectric
+89,Which power source splits atoms?,Nuclear,Solar,Wind,Geothermal
+90,Which device stores chemical energy?,Battery,Resistor,Capacitor,Motor
+91,What does Ohm’s Law relate?,"Voltage, Current, Resistance","Mass, Force, Acceleration","Power, Energy, Time","Heat, Pressure, Volume"
+92,What is measured in kilowatt-hours?,Electrical Energy,Power,Voltage,Current
+93,What is geothermal energy?,Heat from Earth,Heat from Sun,Heat from Wind,Heat from Water
+94,What type of energy is stored in stretched springs?,Elastic Potential,Kinetic,Thermal,Chemical
+95,What is the greenhouse effect caused by?,Trapped heat from gases,Energy loss,Volcanoes,Sunspots
+96,Which sector consumes the most energy?,Industry,Residential,Agriculture,Transport
+97,What energy does a hydroelectric dam convert?,Kinetic to Electrical,Thermal to Electrical,Solar to Electrical,Nuclear to Electrical
+98,Which device converts sunlight into electricity?,Photovoltaic Cell,Generator,Motor,Capacitor
+99,What does alternating current do?,Reverses direction periodically,Flows in one direction,Stores charge,Stops suddenly
+100,What is the unit of electrical power?,Watt,Volt,Ohm,Joule

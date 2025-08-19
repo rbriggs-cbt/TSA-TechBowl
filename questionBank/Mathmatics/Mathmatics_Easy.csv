@@ -1,0 +1,101 @@
+#,Question,Correct Answer,Distractor 1,Distractor 2,Distractor 3
+1,What is 8 × 7?,56,49,64,63
+2,What is the value of 100 ÷ 25?,4,2,5,10
+3,What is 15% of 200?,30,25,20,40
+4,Which is the smallest prime number?,2,1,3,5
+5,What is the greatest common factor (GCF) of 12 and 18?,6,12,3,2
+6,What is the least common multiple (LCM) of 4 and 6?,12,8,18,24
+7,What is the value of 5²?,25,10,15,20
+8,Which number is even?,28,35,17,21
+9,"What is the place value of 7 in 3,745?",700,70,"7,000",7
+10,What is 3/4 as a decimal?,0.75,0.3,0.5,0.25
+11,Which fraction is equivalent to 2/3?,4/6,3/5,6/5,1/4
+12,What is the value of |-9|?,9,-9,0,1
+13,Round 248 to the nearest ten.,250,240,200,300
+14,What is the remainder when 25 ÷ 4?,1,2,3,0
+15,What is 2.5 + 3.6?,6.1,5.1,7.1,6.0
+16,What is the next prime after 13?,17,15,19,21
+17,What is the reciprocal of 5/8?,8/5,5/8,3/5,13/8
+18,What is 0.4 × 100?,40,0.04,4,400
+19,What is ⅔ of 90?,60,45,30,75
+20,Which is a composite number?,12,11,7,5
+21,Simplify: 3x + 2x,5x,6x,3x²,x
+22,Solve: x + 7 = 12,x = 5,x = 7,x = 12,x = 19
+23,Solve: 2x = 14,x = 7,x = 12,x = 6,x = 8
+24,Which is a variable?,x,3,7,15
+25,Evaluate: 4x when x = 3,12,7,15,9
+26,"What comes next? 2, 4, 6, 8...",10,12,14,16
+27,What is 3(x + 2) if x = 4?,18,12,20,24
+28,Which equation matches: A number increased by 5 is 9?,x + 5 = 9,x - 5 = 9,x × 5 = 9,x ÷ 5 = 9
+29,Solve: x - 9 = 4,x = 13,x = 5,x = 6,x = 3
+30,"If y = 2, what is 3y + 4?",10,6,12,8
+31,What is 5² + 2²?,29,25,27,21
+32,Which of these is an equation?,3x + 2 = 8,3 + 2,5x,7y - 3
+33,What is the value of 9²?,81,18,72,99
+34,What is the slope in y = 2x + 3?,2,3,5,1
+35,Solve: x/4 = 6,x = 24,x = 10,x = 12,x = 18
+36,Which pattern is increasing by 5?,"5, 10, 15","2, 4, 8","3, 9, 27","1, 2, 4"
+37,Solve: 7x = 28,x = 4,x = 7,x = 21,x = 14
+38,Simplify: 2a + 3a + 5,5a + 5,6a + 3,2a + 8,a + 8
+39,"If x = 10, what is x/2?",5,20,8,12
+40,Which is a solution to x + 4 = 9?,5,6,7,4
+41,How many sides does a hexagon have?,6,5,7,8
+42,What is the perimeter of a square with side 5?,20,10,15,25
+43,What is the area of a rectangle 8 × 3?,24,11,32,16
+44,What is the volume of a cube with side 2?,8,6,12,4
+45,How many degrees in a triangle?,180,90,270,360
+46,What is the radius of a circle with diameter 10?,5,10,20,2
+47,What tool is used to measure angles?,Protractor,Ruler,Compass,Scale
+48,"What is the perimeter of a triangle with sides 3, 4, 5?",12,11,13,15
+49,How many right angles in a square?,4,2,3,1
+50,What is the area of a square with side 12?,144,24,36,48
+51,What is the longest side of a right triangle called?,Hypotenuse,Base,Height,Median
+52,What is the circumference of a circle with diameter 7?,≈22,≈14,≈11,≈7
+53,How many faces on a cube?,6,4,8,12
+54,What type of triangle has all equal sides?,Equilateral,Isosceles,Scalene,Right
+55,How many degrees in a straight line?,180,90,270,360
+56,"What is the area of a triangle base 10, height 6?",30,60,16,20
+57,What is the measure of each angle in an equilateral triangle?,60°,90°,45°,120°
+58,What is the perimeter of a rectangle 5 × 9?,28,14,45,18
+59,How many edges does a rectangular prism have?,12,6,8,10
+60,What unit is used for area?,Square units,Linear units,Cubic units,Degrees
+61,"What is the mode of 2, 4, 4, 5, 7?",4,2,5,7
+62,"What is the median of 3, 1, 4?",3,2,1,4
+63,"What is the mean of 2, 6, 10?",6,4,5,8
+64,What is the probability of flipping heads on a coin?,1/2,1/3,1/4,1
+65,Which graph shows parts of a whole?,Pie Chart,Line Graph,Bar Graph,Histogram
+66,"If a die is rolled, probability of rolling a 3?",1/6,1/3,1/2,1/4
+67,"What is range of 7, 2, 10, 5?",8,7,10,5
+68,Which graph shows change over time?,Line Graph,Bar Graph,Circle Graph,Histogram
+69,What is the probability of picking a red card from a standard deck?,1/2,1/4,1/13,1/52
+70,"What is the mean of 10, 20, 30, 40?",25,20,30,40
+71,"What is the mode of 5, 6, 6, 8, 9?",6,5,8,9
+72,What is the probability of rolling even on a die?,1/2,1/3,1/6,2/3
+73,"Which is an outlier: 3, 4, 5, 6, 20?",20,6,3,4
+74,"What is the median of 8, 2, 7, 4, 5?",5,4,6,7
+75,What is the probability of drawing an ace from a deck?,1/13,1/4,1/26,1/52
+76,Which graph shows frequency of data in intervals?,Histogram,Pie Chart,Scatter Plot,Bar Graph
+77,"What is the range of 12, 5, 8?",7,5,12,8
+78,"What is the mean of 2, 2, 4, 6, 6?",4,3,5,2
+79,What is the probability of rolling a number greater than 4 on a die?,1/3,1/6,1/2,2/3
+80,"What is the median of 10, 15, 20, 25?",17.5,15,20,22.5
+81,"A pizza has 8 slices. If you eat 3, what fraction is left?",5/8,3/8,1/2,2/3
+82,A pen costs $2. How much do 5 pens cost?,$10,$5,$12,$15
+83,"If a car travels 60 miles in 2 hours, what is its speed?",30 mph,60 mph,15 mph,40 mph
+84,"If it is 3 p.m. now, what time will it be in 5 hours?",8 p.m.,7 p.m.,9 p.m.,6 p.m.
+85,You buy a $12 item and pay with $20. What is your change?,$8,$7,$6,$5
+86,A box holds 10 apples. How many apples in 5 boxes?,50,20,25,60
+87,"If you walk 3 km each day, how far in 7 days?",21 km,14 km,18 km,24 km
+88,"If a rectangle has length 12 and width 4, what is its area?",48,16,32,36
+89,You spend $15 and then $25. How much total?,$40,$35,$30,$50
+90,A train leaves at 2:00 and arrives at 5:30. How long is the trip?,3.5 hours,4 hours,2.5 hours,3 hours
+91,"If 1 inch = 2.54 cm, how many cm in 10 inches?",25.4,20.5,24,22
+92,"If 5 pencils cost $1, how much do 20 pencils cost?",$4,$5,$20,$6
+93,"If a square has perimeter 16, what is the length of each side?",4,8,6,5
+94,"If you save $2 a day, how much in 15 days?",$30,$25,$28,$32
+95,"If there are 12 cookies and 4 friends, how many each?",3,2,4,6
+96,"If a movie starts at 7:15 and ends at 9:00, how long is it?",1 hour 45 min,2 hours,1 hour 30 min,1 hour 15 min
+97,"If you buy 3 packs of gum for $2 each, total cost?",$6,$8,$4,$9
+98,"If a car goes 50 mph, how far in 3 hours?",150 miles,100 miles,200 miles,120 miles
+99,A shirt costs $20. Discount is 25%. Sale price?,$15,$10,$12,$18
+100,"If a triangle has sides 3, 4, 5, what is its perimeter?",12,10,11,15

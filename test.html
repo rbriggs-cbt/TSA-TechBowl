@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TSA Tech Bowl - Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        .test-section { margin: 20px 0; padding: 20px; border: 1px solid #ccc; border-radius: 5px; }
+        .success { background-color: #d4edda; border-color: #c3e6cb; }
+        .error { background-color: #f8d7da; border-color: #f5c6cb; }
+        button { padding: 10px 20px; margin: 5px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>TSA Tech Bowl - Local Test</h1>
+    
+    <div class="test-section">
+        <h2>File Check</h2>
+        <p>Make sure all these files exist in your project folder:</p>
+        <ul>
+            <li>✅ index.html</li>
+            <li>✅ styles.css</li>
+            <li>✅ script.js</li>
+            <li>✅ README.md</li>
+        </ul>
+    </div>
+    
+    <div class="test-section">
+        <h2>Quick Test</h2>
+        <p>Click the button below to test if the main app loads:</p>
+        <button onclick="testApp()">Test Main App</button>
+        <div id="testResult"></div>
+    </div>
+    
+    <div class="test-section">
+        <h2>Next Steps</h2>
+        <p>If the test passes:</p>
+        <ol>
+            <li>Create a new GitHub repository</li>
+            <li>Upload all files to the repository</li>
+            <li>Enable GitHub Pages in repository settings</li>
+            <li>Your app will be live at: https://yourusername.github.io/repositoryname</li>
+        </ol>
+    </div>
+
+    <script>
+        function testApp() {
+            try {
+                // Test if main files can be loaded
+                const testResult = document.getElementById('testResult');
+                
+                // Try to load the main app
+                window.location.href = 'index.html';
+                
+            } catch (error) {
+                document.getElementById('testResult').innerHTML = 
+                    '<div class="error">❌ Error: ' + error.message + '</div>';
+            }
+        }
+    </script>
+</body>
+</html>

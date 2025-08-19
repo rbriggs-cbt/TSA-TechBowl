@@ -1,0 +1,101 @@
+#,Question,Correct Answer,Distractor 1,Distractor 2,Distractor 3
+1,Simplify: (2/3) ÷ (4/9),3/2,2/3,9/8,4/6
+2,Convert 0.0032 to scientific notation.,3.2 × 10⁻³,32 × 10⁻⁴,3.2 × 10⁻²,32 × 10⁻³
+3,What is √196?,14,12,16,18
+4,Simplify: (5/8)(16/25),2/5,5/8,3/4,8/25
+5,What is 15% of 640?,96,84,100,92
+6,Simplify: (0.2)³,0.008,0.06,0.02,0.04
+7,Which is irrational?,√5,25,-3,4/9
+8,What is the cube root of 216?,6,8,9,12
+9,"If x = 2⁴ × 2³, what is x?",128,64,16,32
+10,What is the LCM of 18 and 24?,72,36,48,96
+11,What is the GCF of 54 and 72?,18,12,24,9
+12,Simplify: (3⁵)(3²),3⁷,3¹⁰,3⁶,3⁴
+13,What is 0.4 as a fraction?,2/5,4/9,1/2,3/7
+14,Which number is divisible by 9?,639,427,812,725
+15,What is 25% of 320?,80,60,75,85
+16,Simplify: (4/7) ÷ (2/21),6,8,4,12
+17,What is 1.2 × 0.15?,0.18,1.8,0.015,0.12
+18,Which is not a prime number?,51,59,61,67
+19,What is √(81/16)?,9/4,8/4,9/16,81/4
+20,What is 10⁻² equal to?,0.01,0.1,100,0.001
+21,Solve: 2x² - 8 = 0,x = ±2,x = 2,x = ±4,x = ±8
+22,Factor: x² - 9,(x-3)(x+3),(x-9)(x+1),(x-1)(x-9),(x-2)(x+2)
+23,Simplify: (x²)(x³),x⁵,x⁶,x³,x²
+24,Solve: 3(x - 2) = 12,x = 6,x = 4,x = 2,x = 5
+25,"If y = 2x² + 3, find y when x = 4.",35,32,19,27
+26,Solve: x² - 25 = 0,x = ±5,x = 5,x = -5,x = ±25
+27,What is the slope of y = -2x + 7?,-2,7,2,-7
+28,Simplify: (x+4)(x-4),x² - 16,x² + 16,x² - 4,x² + 8
+29,Solve: 2x - 5 = 17,x = 11,x = 6,x = 12,x = 10
+30,Factor: x² + 7x + 10,(x+2)(x+5),(x+1)(x+10),(x+3)(x+4),(x+5)(x+7)
+31,Solve: 4x + 7 = 23,x = 4,x = 3,x = 6,x = 5
+32,Which represents direct variation?,y = 5x,y = x + 5,y = 3x - 2,y = 2x + 1
+33,Simplify: (3x²)(2x³),6x⁵,5x⁵,6x⁶,3x⁵
+34,Solve: x² + 6x + 9 = 0,x = -3,x = 3,x = ±3,x = -9
+35,Simplify: (x³)²,x⁶,x⁵,x³,x²
+36,What is the slope of a line perpendicular to y = (1/2)x?,-2,2,1/2,0
+37,Solve: 5x - 4 = 26,x = 6,x = 5,x = 7,x = 8
+38,Simplify: (x²y)(xy²),x³y³,x²y²,x³y²,x²y³
+39,Solve: (x/3) + 5 = 9,x = 12,x = 27,x = 9,x = 18
+40,"Which quadratic has vertex at (0,-4)?",y = x² - 4,y = x² + 4,y = (x-4)²,y = (x+4)²
+41,Find area of circle radius 10.,100π,20π,50π,200π
+42,"Volume of cone radius 3, height 9.",27π,81π,18π,36π
+43,"In right triangle, sides 9, 12, find hypotenuse.",15,21,18,20
+44,What is the measure of one angle in a regular decagon?,144°,108°,120°,135°
+45,Surface area of cube side 6.,216,144,196,256
+46,Volume of sphere radius 6.,288π,216π,432π,144π
+47,How many diagonals in an octagon?,20,12,16,18
+48,"Area of trapezoid bases 8, 14, height 6.",66,72,60,84
+49,Find length of diagonal of rectangle 9 × 12.,15,21,18,20
+50,Sum of interior angles of hexagon?,720°,540°,600°,900°
+51,What is apothem of regular hexagon side 10?,5√3,10,15,6√3
+52,"Find volume of cylinder radius 5, height 12.",300π,120π,150π,200π
+53,Area of equilateral triangle side 6.,9√3,12√3,6√3,18√3
+54,Surface area of sphere radius 5.,100π,50π,150π,200π
+55,Measure of each angle in a regular 12-gon?,150°,135°,140°,160°
+56,Diagonal of square side 8?,8√2,16,12√2,10
+57,"Volume of pyramid base 6×6, height 9.",108,216,81,144
+58,"Area of sector radius 12, angle 90°.",36π,18π,24π,48π
+59,Find perimeter of semicircle diameter 14.,(14 + 7π),(14 + 14π),(7 + 14π),(14 + 21π)
+60,"Find circumradius of right triangle sides 9, 12, 15.",7.5,6,9,10
+61,Probability of drawing red card from deck?,1/2,1/4,1/13,1/52
+62,"Mean of 10, 15, 20, 25, 30.",20,15,25,22
+63,"If median = 30 and n=5, what is middle value?",30,25,20,35
+64,Probability of rolling sum of 7 with 2 dice?,6/36,5/36,7/36,1/6
+65,"Range of 5, 11, 14, 20.",15,14,10,20
+66,Probability of drawing ace or king?,2/13,1/13,1/26,1/52
+67,"What is mode of 2, 4, 4, 6, 8, 8, 8?",8,4,6,2
+68,"Variance of 2, 4, 6?",8/3,2,4,10/3
+69,"What is standard deviation of 2,4,6?",√(8/3),2,√2,√3
+70,"If probability = 0.2, odds against?",4:1,1:4,5:1,1:5
+71,"What is median of 12, 15, 20, 22, 30, 32?",21,20,22,25
+72,Probability of rolling even then odd?,9/36,12/36,6/36,18/36
+73,"If mean = 50, n=10, total?",500,50,100,450
+74,What type of data is “favorite color”?,Categorical,Numerical,Discrete,Continuous
+75,Probability of selecting vowel from word 'PROBABILITY'?,4/11,5/11,3/11,2/11
+76,What graph best shows correlation?,Scatter Plot,Pie Chart,Bar Graph,Line Graph
+77,Which is affected most by outliers?,Mean,Median,Mode,Range
+78,Probability of drawing queen from deck?,1/13,1/26,1/52,1/12
+79,"What is interquartile range of 2,4,6,8,10?",4,2,6,8
+80,Probability of getting heads 3 times in row?,1/8,1/6,1/4,1/2
+81,A car travels 300 miles in 5 hours. Speed?,60 mph,50 mph,65 mph,70 mph
+82,"If 12 workers build a wall in 8 days, how many days for 6?",16,12,14,10
+83,"If simple interest I=Prt, find I when P=200, r=0.05, t=4.",40,50,20,60
+84,"If a shirt costs $40 with 20% discount, sale price?",$32,$30,$28,$34
+85,A box has 3 red and 5 blue balls. P(red)?,3/8,5/8,1/2,2/3
+86,"If 8 workers finish in 24 days, how many days for 12 workers?",16,18,20,14
+87,A train leaves at 2:15 and arrives 6:45. Duration?,4.5 hrs,5 hrs,4 hrs,3.5 hrs
+88,"A rectangle has area 84, width 7. Find length.",12,10,14,16
+89,"If a car goes 45 mph, how far in 4 hours?",180 miles,160 miles,200 miles,150 miles
+90,A recipe uses 3 cups flour for 12 cookies. Flour for 36 cookies?,9 cups,6 cups,12 cups,8 cups
+91,You save $25 per week. In 12 weeks you save?,$300,$250,$275,$325
+92,A tank holds 500 L. It leaks 25 L/hr. Hours to empty?,20,25,15,30
+93,You buy 4 pens at $1.50 each and 3 notebooks at $2. Cost?,$11.50,$10.50,$12,$9.50
+94,"If 5x = 65, what is x?",13,12,15,11
+95,A movie lasts 2 hrs 35 min. How many minutes?,155,150,145,160
+96,A shirt marked $50 has 30% discount. Sale price?,$35,$30,$32,$40
+97,"If perimeter of square = 60, side = ?",15,20,12,18
+98,A car uses 15 gallons for 375 miles. Mileage?,25 mpg,20 mpg,30 mpg,28 mpg
+99,"If 3 workers build a shed in 9 days, how many days for 9 workers?",3,6,2,4
+100,"If 60% of 200 students are girls, how many are boys?",80,120,100,60

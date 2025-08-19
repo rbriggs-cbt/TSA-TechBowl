@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TSA Tech Bowl</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Login Page -->
+    <div id="loginPage" class="page active">
+        <div class="login-container">
+            <h1>TSA Tech Bowl</h1>
+            <div class="login-form">
+                <input type="text" id="username" placeholder="Username" required>
+                <input type="password" id="password" placeholder="Password" required>
+                <button onclick="login()">Login</button>
+                <div id="loginError" class="error-message"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Menu Page -->
+    <div id="mainMenuPage" class="page">
+        <div class="menu-container">
+            <h1>TSA Tech Bowl</h1>
+            <div class="menu-tiles">
+                <div class="tile" onclick="showPracticeMode()">
+                    <h2>Practice Mode</h2>
+                    <p>Study with flashcards by subject and difficulty</p>
+                </div>
+                <div class="tile" onclick="showQuizMode()">
+                    <h2>Quiz Mode</h2>
+                    <p>Test your knowledge with 20 random questions</p>
+                </div>
+                <div class="tile" onclick="showBTSTSA()">
+                    <h2>BTS TSA</h2>
+                    <p>3-question quiz: 1 from each discipline (2 easy, 1 medium)</p>
+                </div>
+            </div>
+            <button class="logout-btn" onclick="logout()">Logout</button>
+        </div>
+    </div>
+
+    <!-- Practice Mode Setup Page -->
+    <div id="practiceSetupPage" class="page">
+        <div class="setup-container">
+            <h1>Practice Mode Setup</h1>
+            <div class="setup-form">
+                <div class="form-group">
+                    <label for="subjectSelect">Subject:</label>
+                    <select id="subjectSelect">
+                        <option value="science">Science</option>
+                        <option value="technology">Technology</option>
+                        <option value="engineering">Engineering</option>
+                        <option value="mathematics">Mathematics</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="difficultySelect">Difficulty:</label>
+                    <select id="difficultySelect">
+                        <option value="easy">Easy (6th Grade)</option>
+                        <option value="medium">Medium (8th Grade)</option>
+                        <option value="hard">Hard (10th Grade)</option>
+                    </select>
+                </div>
+                <button onclick="startPractice()">Start Practice</button>
+                <button class="back-btn" onclick="showMainMenu()">Back to Menu</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Practice Mode Page -->
+    <div id="practicePage" class="page">
+        <div class="practice-container">
+            <div class="practice-header">
+                <h1>Practice Mode</h1>
+                <div class="practice-info">
+                    <span id="practiceSubject"></span> - <span id="practiceDifficulty"></span>
+                </div>
+                <div class="card-counter">
+                    Card <span id="currentCardNumber">1</span> of <span id="totalCards">10</span>
+                </div>
+            </div>
+            <div class="flashcard">
+                <div class="card-content">
+                    <div id="questionText" class="question"></div>
+                    <div id="answerText" class="answer hidden"></div>
+                </div>
+                <div class="card-controls">
+                    <button id="showAnswerBtn" onclick="toggleAnswer()">Show Answer</button>
+                    <button id="nextCardBtn" onclick="nextCard()" class="hidden">Next Card</button>
+                </div>
+            </div>
+            <button class="back-btn" onclick="showMainMenu()">Back to Menu</button>
+        </div>
+    </div>
+
+    <!-- Quiz Mode Page -->
+    <div id="quizPage" class="page">
+        <div class="quiz-container">
+            <div class="quiz-header">
+                <h1>Quiz Mode</h1>
+                <div class="quiz-info">
+                    <span>Question <span id="quizQuestionNumber">1</span> of 20</span>
+                    <span>Score: <span id="quizScore">0</span>/20</span>
+                    <span>Time: <span id="quizTimer">0</span>s</span>
+                </div>
+            </div>
+            <div class="quiz-question">
+                <div id="quizQuestionText" class="question"></div>
+                <div class="quiz-options">
+                    <button class="option-btn" onclick="selectAnswer(0)"></button>
+                    <button class="option-btn" onclick="selectAnswer(1)"></button>
+                    <button class="option-btn" onclick="selectAnswer(2)"></button>
+                    <button class="option-btn" onclick="selectAnswer(3)"></button>
+                </div>
+            </div>
+            <div class="quiz-progress">
+                <div class="progress-bar">
+                    <div id="progressFill" class="progress-fill"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quiz Results Page -->
+    <div id="quizResultsPage" class="page">
+        <div class="results-container">
+            <h1>Quiz Results</h1>
+            <div class="results-summary">
+                <div class="result-item">
+                    <span class="result-label">Final Score:</span>
+                    <span class="result-value" id="finalScore">0/20</span>
+                </div>
+                <div class="result-item">
+                    <span class="result-label">Total Time:</span>
+                    <span class="result-value" id="finalTime">0s</span>
+                </div>
+                <div class="result-item">
+                    <span class="result-label">Performance:</span>
+                    <span class="result-value" id="performance">Poor</span>
+                </div>
+            </div>
+            <div class="results-actions">
+                <button onclick="retakeQuiz()">Take Another Quiz</button>
+                <button onclick="showMainMenu()">Back to Menu</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- BTS TSA Page -->
+    <div id="btsTSAPage" class="page">
+        <div class="bts-container">
+            <div class="bts-header">
+                <h1>BTS TSA</h1>
+                <div class="bts-info">
+                    <span>Question <span id="btsQuestionNumber">1</span> of 3</span>
+                    <span>Score: <span id="btsScore">0</span>/3</span>
+                    <span>Time: <span id="btsTimer">0</span>s</span>
+                </div>
+                <div class="bts-subject-info">
+                    <span id="btsSubject"></span> - <span id="btsDifficulty"></span>
+                </div>
+            </div>
+            <div class="bts-question">
+                <div id="btsQuestionText" class="question"></div>
+                <div class="bts-options">
+                    <button class="bts-option-btn" onclick="selectBTSAnswer(0)"></button>
+                    <button class="bts-option-btn" onclick="selectBTSAnswer(1)"></button>
+                    <button class="bts-option-btn" onclick="selectBTSAnswer(2)"></button>
+                    <button class="bts-option-btn" onclick="selectBTSAnswer(3)"></button>
+                </div>
+            </div>
+            <div class="bts-progress">
+                <div class="progress-bar">
+                    <div id="btsProgressFill" class="progress-fill"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- BTS TSA Results Page -->
+    <div id="btsResultsPage" class="page">
+        <div class="results-container">
+            <h1>BTS TSA Results</h1>
+            <div class="results-summary">
+                <div class="result-item">
+                    <span class="result-label">Final Score:</span>
+                    <span class="result-value" id="btsFinalScore">0/3</span>
+                </div>
+                <div class="result-item">
+                    <span class="result-label">Total Time:</span>
+                    <span class="result-value" id="btsFinalTime">0s</span>
+                </div>
+                <div class="result-item">
+                    <span class="result-label">Performance:</span>
+                    <span class="result-value" id="btsPerformance">Poor</span>
+                </div>
+            </div>
+            <div class="results-actions">
+                <button onclick="retakeBTSTSA()">Take Another BTS TSA</button>
+                <button onclick="showMainMenu()">Back to Menu</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="questionBank.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

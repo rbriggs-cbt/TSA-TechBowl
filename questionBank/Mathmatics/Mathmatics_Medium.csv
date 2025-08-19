@@ -1,0 +1,101 @@
+#,Question,Correct Answer,Distractor 1,Distractor 2,Distractor 3
+1,What is 18 ÷ 0.5?,36,9,18,90
+2,Convert 3/8 to a decimal.,0.375,0.25,0.4,0.35
+3,What is the square root of 121?,11,10,12,9
+4,Simplify: 3/4 × 2/5,3/10,6/9,5/8,7/10
+5,What is 2.5% of 400?,10,25,15,20
+6,What is 7³?,343,49,21,512
+7,"Write 4,500 in scientific notation.",4.5 × 10³,45 × 10²,0.45 × 10⁴,450 × 10¹
+8,What is the value of 0.6 × 0.2?,0.12,1.2,0.002,0.6
+9,What is the GCF of 36 and 48?,12,18,6,24
+10,What is the LCM of 9 and 12?,36,18,24,48
+11,What is the cube of 5?,125,15,25,150
+12,Simplify: 15/25,3/5,5/3,2/5,7/10
+13,What is |-15|?,15,-15,0,1
+14,Write 0.045 as a fraction.,45/1000,45/100,45/10,45/10000
+15,Round 8.764 to 2 decimal places.,8.76,8.77,8.70,8.75
+16,What is 20% of 360?,72,60,80,90
+17,What is the next prime after 29?,31,33,35,37
+18,Which is irrational?,√2,4,7,9
+19,What is 12.5% as a fraction?,1/8,1/10,1/12,1/20
+20,What is the reciprocal of 0.25?,4,0.25,2,1/4
+21,Solve: 5x - 7 = 18,x = 5,x = 3,x = 7,x = 4
+22,Simplify: 3(2x + 4),6x + 12,5x + 4,6x + 4,3x + 12
+23,"If y = 3x + 2, find y when x = 5.",17,15,20,12
+24,What is the slope of the line y = -3x + 7?,-3,7,3,-7
+25,Solve: 2x + 3 = 11,x = 4,x = 5,x = 6,x = 3
+26,Which is a solution to 2x + 5 = 15?,x = 5,x = 10,x = 20,x = 15
+27,Factor: x² + 5x + 6,(x+2)(x+3),(x+1)(x+6),(x+5)(x+1),(x+4)(x+2)
+28,Solve: x² = 64,x = ±8,x = 8,x = -8,x = 16
+29,Which equation represents a line parallel to y = 2x + 3?,y = 2x - 5,y = -2x + 1,y = x + 2,y = 3x + 7
+30,Simplify: (x²)(x³),x⁵,x⁶,x³,x²
+31,Solve: 3x/4 = 9,x = 12,x = 9,x = 15,x = 6
+32,Simplify: 4a - 2a + 7,2a + 7,6a + 7,a + 5,2a + 5
+33,Solve: x² - 16 = 0,x = ±4,x = 4,x = -4,x = 8
+34,What is the slope of y = 5?,0,5,1,Undefined
+35,Simplify: (2x)(3x),6x²,5x,6x,x²
+36,Solve: 7x + 2 = 30,x = 4,x = 5,x = 3,x = 6
+37,Which is a function?,y = 2x + 1,x² + y² = 25,x² = y²,x² + y = 4
+38,What is the y-intercept of y = 4x - 9?,-9,4,9,0
+39,Simplify: (x + 2)(x - 2),x² - 4,x² + 4,x² - 2,x² + 2
+40,Solve: 10x = 120,x = 12,x = 10,x = 15,x = 20
+41,Find the area of a circle with radius 7.,49π,14π,7π,28π
+42,The Pythagorean theorem applies to which triangle?,Right Triangle,Equilateral,Isosceles,Scalene
+43,Find the volume of a cube with side 5.,125,25,50,100
+44,What is the measure of one angle in a regular hexagon?,120°,90°,100°,110°
+45,What is the area of a triangle with base 12 and height 5?,30,60,25,50
+46,Find the diagonal of a square with side 10.,10√2,20,15,12√2
+47,What is the circumference of a circle with radius 4?,8π,16π,4π,12π
+48,How many edges does a triangular prism have?,9,6,12,8
+49,What is the volume of a cylinder with radius 3 and height 10?,90π,30π,60π,100π
+50,What is the sum of angles in a quadrilateral?,360°,180°,270°,400°
+51,Find the perimeter of a rectangle 7 × 9.,32,63,28,36
+52,"What type of triangle has angles 30°, 60°, 90°?",Special Right Triangle,Scalene,Equilateral,Isosceles
+53,"What is the area of a trapezoid with bases 8 and 12, height 5?",50,60,40,100
+54,What is the volume of a sphere with radius 3?,36π,27π,81π,18π
+55,Find the surface area of a cube with side 4.,96,64,48,72
+56,What is the measure of each angle in a regular octagon?,135°,120°,150°,140°
+57,How many diagonals does a pentagon have?,5,2,10,6
+58,Find the area of a parallelogram with base 8 and height 6.,48,24,36,30
+59,What is the length of the hypotenuse in a 5-12-? triangle?,13,12,17,15
+60,Find the circumference of a circle with diameter 20.,20π,10π,40π,30π
+61,What is the probability of rolling a prime on a die?,1/2,1/3,1/6,2/3
+62,"What is the median of 2, 7, 4, 9, 11?",7,9,5,6
+63,The mean of 5 numbers is 8. Their total is?,40,45,35,30
+64,What is the probability of flipping two heads in a row?,1/4,1/2,1/3,1/6
+65,Which graph shows correlation?,Scatter Plot,Pie Chart,Bar Graph,Histogram
+66,"What is the range of 12, 17, 8, 10?",9,8,7,10
+67,What is the probability of drawing a heart from a deck?,1/4,1/2,1/13,1/52
+68,"If mean = 20, n = 5, what is total?",100,120,80,90
+69,"Which is the mode of 6, 8, 10, 10, 12?",10,8,12,6
+70,What is the probability of rolling greater than 2 on a die?,2/3,1/6,1/2,5/6
+71,What type of graph uses bins or intervals?,Histogram,Line Graph,Bar Graph,Pie Chart
+72,"What is the interquartile range of 2, 4, 6, 8, 10?",4,6,8,2
+73,What is the probability of drawing a king from a deck?,1/13,1/52,1/4,1/26
+74,Which measure of central tendency is most affected by outliers?,Mean,Median,Mode,Range
+75,What is the probability of rolling an odd number on a die?,1/2,1/3,1/6,2/3
+76,"What is the mean of 2, 4, 6, 8, 10?",6,5,7,8
+77,"What is the range of 15, 22, 18, 25?",10,12,9,8
+78,"If probability = 0.75, what percent is that?",75%,25%,50%,7.5%
+79,What is the probability of picking a vowel from the word “MATH”?,1/4,1/2,3/4,0
+80,Which display shows frequency over intervals of time?,Line Graph,Histogram,Pie Chart,Scatter Plot
+81,"If a car travels 180 miles in 3 hours, speed is?",60 mph,30 mph,90 mph,45 mph
+82,"If you buy 3 shirts at $12 each, total cost is?",$36,$30,$24,$40
+83,A rectangle has area 48 and width 6. Length is?,8,6,12,10
+84,"If 5 workers build a wall in 12 days, how long for 10 workers?",6 days,12 days,10 days,15 days
+85,You earn $12/hr and work 20 hours. Total pay?,$240,$200,$220,$260
+86,A train leaves at 1:30 and arrives at 4:15. Duration?,2 hrs 45 min,3 hrs,2 hrs 30 min,2 hrs
+87,"If 12 pencils cost $3, what is cost of 20?",$5,$6,$4,$7
+88,You buy 5 tickets at $8 each. Total cost?,$40,$35,$45,$50
+89,"If you save $15/week, how much in 12 weeks?",$180,$200,$150,$175
+90,A recipe needs 3 cups sugar for 24 cookies. For 12 cookies?,1.5 cups,3 cups,2 cups,2.5 cups
+91,A car uses 12 gallons for 300 miles. Mileage?,25 mpg,30 mpg,20 mpg,22 mpg
+92,"If simple interest is I = Prt, what is I for P=100, r=0.1, t=2?",20,10,25,15
+93,A box has 4 red and 6 blue balls. P(red)?,2/5,1/2,3/5,1/3
+94,What is 20% of $450?,$90,$80,$85,$100
+95,"If 2x = 50, what is x?",25,20,30,15
+96,"If a shirt costs $25 after 20% discount, original price?",$31.25,$30,$32,$35
+97,"If perimeter of square = 40, side = ?",10,8,12,15
+98,A car travels 240 miles at 60 mph. Time?,4 hours,3 hours,5 hours,6 hours
+99,"If a pizza has 10 slices and you eat 4, fraction left?",6/10,4/10,1/2,3/10
+100,"If 8 workers finish in 16 days, how long for 4 workers?",32 days,8 days,24 days,20 days

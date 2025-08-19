@@ -1,0 +1,621 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1E3A8A 0%, #DC143C 100%);
+    min-height: 100vh;
+    color: #333;
+}
+
+.page {
+    display: none;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.page.active {
+    display: block;
+}
+
+/* Login Page */
+.login-container {
+    max-width: 400px;
+    margin: 100px auto;
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(30, 58, 138, 0.2);
+    text-align: center;
+    border: 3px solid #DC143C;
+}
+
+.login-container h1 {
+    color: #1E3A8A;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 2px solid #e1e5e9;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.login-form input:focus {
+    outline: none;
+    border-color: #DC143C;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(135deg, #DC143C 0%, #B91C1C 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+
+.login-form button:hover {
+    background: linear-gradient(135deg, #B91C1C 0%, #991B1B 100%);
+    transform: translateY(-2px);
+}
+
+.error-message {
+    color: #DC143C;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* Main Menu */
+.menu-container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.menu-container h1 {
+    color: white;
+    margin-bottom: 50px;
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.menu-tiles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.tile {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(30, 58, 138, 0.2);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 3px solid #1E3A8A;
+}
+
+.tile:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(220, 20, 60, 0.3);
+    border-color: #DC143C;
+}
+
+.tile h2 {
+    color: #1E3A8A;
+    margin-bottom: 15px;
+    font-size: 1.8em;
+}
+
+.tile p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.logout-btn {
+    background: linear-gradient(135deg, #DC143C 0%, #B91C1C 100%);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.logout-btn:hover {
+    background: linear-gradient(135deg, #B91C1C 0%, #991B1B 100%);
+    transform: translateY(-2px);
+}
+
+/* Practice Setup */
+.setup-container {
+    max-width: 500px;
+    margin: 50px auto;
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(30, 58, 138, 0.2);
+    border: 3px solid #1E3A8A;
+}
+
+.setup-container h1 {
+    color: #1E3A8A;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+}
+
+.form-group select {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #e1e5e9;
+    border-radius: 8px;
+    font-size: 16px;
+    background: white;
+}
+
+.form-group select:focus {
+    outline: none;
+    border-color: #DC143C;
+}
+
+.setup-form button {
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(135deg, #1E3A8A 0%, #3B82F6 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+}
+
+.setup-form button:hover {
+    background: linear-gradient(135deg, #1E40AF 0%, #2563EB 100%);
+    transform: translateY(-2px);
+}
+
+.back-btn {
+    background: linear-gradient(135deg, #6B7280 0%, #9CA3AF 100%) !important;
+}
+
+.back-btn:hover {
+    background: linear-gradient(135deg, #4B5563 0%, #6B7280 100%) !important;
+}
+
+/* Practice Mode */
+.practice-container {
+    max-width: 800px;
+    margin: 30px auto;
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(30, 58, 138, 0.2);
+    border: 3px solid #1E3A8A;
+}
+
+.practice-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.practice-header h1 {
+    color: #1E3A8A;
+    margin-bottom: 15px;
+}
+
+.practice-info {
+    color: #666;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.card-counter {
+    color: #999;
+    font-size: 14px;
+}
+
+.flashcard {
+    background: linear-gradient(135deg, #F8FAFC 0%, #E2E8F0 100%);
+    border-radius: 15px;
+    padding: 40px;
+    margin: 30px 0;
+    text-align: center;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid #1E3A8A;
+}
+
+.card-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.question {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.answer {
+    font-size: 1.3em;
+    color: #1E3A8A;
+    font-weight: 600;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    border-left: 5px solid #DC143C;
+}
+
+.hidden {
+    display: none;
+}
+
+.card-controls {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.card-controls button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+#showAnswerBtn {
+    background: linear-gradient(135deg, #059669 0%, #10B981 100%);
+    color: white;
+}
+
+#showAnswerBtn:hover {
+    background: linear-gradient(135deg, #047857 0%, #059669 100%);
+    transform: translateY(-2px);
+}
+
+#nextCardBtn {
+    background: linear-gradient(135deg, #1E3A8A 0%, #3B82F6 100%);
+    color: white;
+}
+
+#nextCardBtn:hover {
+    background: linear-gradient(135deg, #1E40AF 0%, #2563EB 100%);
+    transform: translateY(-2px);
+}
+
+/* Quiz Mode */
+.quiz-container {
+    max-width: 800px;
+    margin: 30px auto;
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(30, 58, 138, 0.2);
+    border: 3px solid #27ae60;
+    transition: border 0.3s ease;
+}
+
+.quiz-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.quiz-header h1 {
+    color: #1E3A8A;
+    margin-bottom: 20px;
+}
+
+.quiz-info {
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(135deg, #F8FAFC 0%, #E2E8F0 100%);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #1E3A8A;
+}
+
+.quiz-info span {
+    font-weight: 600;
+    color: #333;
+}
+
+.quiz-question {
+    margin-bottom: 30px;
+}
+
+.quiz-options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.option-btn {
+    padding: 20px;
+    border: 2px solid #e1e5e9;
+    border-radius: 10px;
+    background: white;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: left;
+    transition: all 0.3s ease;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.option-btn:hover {
+    border-color: #DC143C;
+    background: #FEF2F2;
+    transform: translateY(-2px);
+}
+
+.option-btn.correct {
+    border-color: #059669;
+    background: #D1FAE5;
+}
+
+.option-btn.incorrect {
+    border-color: #DC143C;
+    background: #FEE2E2;
+}
+
+.quiz-progress {
+    margin-top: 30px;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 10px;
+    background: #e1e5e9;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #1E3A8A 0%, #3B82F6 100%);
+    transition: width 0.3s ease;
+}
+
+.progress-fill.warning {
+    background: linear-gradient(90deg, #F59E0B 0%, #FBBF24 100%);
+}
+
+.progress-fill.danger {
+    background: linear-gradient(90deg, #DC143C 0%, #EF4444 100%);
+}
+
+/* Quiz Results */
+.results-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(30, 58, 138, 0.2);
+    text-align: center;
+    border: 3px solid #1E3A8A;
+}
+
+.results-container h1 {
+    color: #1E3A8A;
+    margin-bottom: 30px;
+}
+
+.results-summary {
+    margin-bottom: 40px;
+}
+
+.result-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid #e1e5e9;
+}
+
+.result-item:last-child {
+    border-bottom: none;
+}
+
+.result-label {
+    font-weight: 600;
+    color: #333;
+}
+
+.result-value {
+    color: #1E3A8A;
+    font-weight: 600;
+}
+
+.results-actions {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.results-actions button {
+    padding: 15px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.results-actions button:first-child {
+    background: linear-gradient(135deg, #1E3A8A 0%, #3B82F6 100%);
+    color: white;
+}
+
+.results-actions button:first-child:hover {
+    background: linear-gradient(135deg, #1E40AF 0%, #2563EB 100%);
+    transform: translateY(-2px);
+}
+
+.results-actions button:last-child {
+    background: linear-gradient(135deg, #6B7280 0%, #9CA3AF 100%);
+    color: white;
+}
+
+.results-actions button:last-child:hover {
+    background: linear-gradient(135deg, #4B5563 0%, #6B7280 100%);
+    transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .page {
+        padding: 15px;
+    }
+    
+    .menu-tiles {
+        grid-template-columns: 1fr;
+    }
+    
+    .quiz-options {
+        grid-template-columns: 1fr;
+    }
+    
+    .quiz-info {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .results-actions {
+        flex-direction: column;
+    }
+}
+
+/* BTS TSA Page */
+.bts-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px;
+    background: linear-gradient(135deg, #1E3A8A 0%, #DC143C 100%);
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    outline: 3px solid #27ae60;
+    transition: outline 0.3s ease;
+}
+
+.bts-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.bts-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.bts-info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.bts-subject-info {
+    font-size: 1.1rem;
+    color: #f0f0f0;
+    margin-bottom: 20px;
+}
+
+.bts-question {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.bts-options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.bts-option-btn {
+    padding: 20px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #1E3A8A 0%, #3B82F6 100%);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.bts-option-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.bts-option-btn.correct {
+    background: linear-gradient(135deg, #059669 0%, #10B981 100%);
+    transform: scale(1.05);
+}
+
+.bts-option-btn.incorrect {
+    background: linear-gradient(135deg, #DC143C 0%, #B91C1C 100%);
+    transform: scale(1.05);
+}
+
+.bts-progress {
+    margin-top: 30px;
+}
+
+.bts-progress .progress-bar {
+    height: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.bts-progress .progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #27ae60 0%, #2ecc71 100%);
+    transition: width 0.3s ease;
+}

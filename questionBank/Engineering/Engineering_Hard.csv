@@ -1,0 +1,101 @@
+#,Question,Correct Answer,Distractor 1,Distractor 2,Distractor 3
+1,What is the primary purpose of shear reinforcement in concrete beams?,Resist diagonal tension stresses,Reduce bending stresses,Prevent corrosion,Improve aesthetics
+2,Which type of bridge uses tension and compression in a balanced way across triangular units?,Truss Bridge,Suspension Bridge,Beam Bridge,Arch Bridge
+3,What is the modulus of elasticity a measure of?,Material stiffness,Thermal expansion,Material density,Ductility
+4,What structural failure occurs when a slender column bends under load?,Buckling,Shear,Torsion,Yielding
+5,Which foundation is used in weak soils for tall buildings?,Pile Foundation,Raft Foundation,Shallow Spread Footing,Mat Foundation
+6,What is the Poisson’s ratio of a material?,Lateral strain/axial strain,Stress/strain,Load/area,Force/distance
+7,What is the critical load in column design?,Load causing buckling,Load at yield point,Load at elastic limit,Load at fracture
+8,Which factor is most significant in earthquake-resistant design?,Ductility of materials,Color of structure,Thermal conductivity,Weight of soil
+9,What test is used to determine the compressive strength of concrete?,Cube Test,Shear Test,Impact Test,Bending Test
+10,What does finite element analysis (FEA) do in structural engineering?,Numerically simulate stress/strain,Visually inspect cracks,Calculate safety factor,Draw architectural designs
+11,What is creep in concrete?,Long-term deformation under load,Sudden fracture,Corrosion of steel,Thermal cracking
+12,What does hydrodynamic pressure affect most in civil design?,Dams,Highways,Bridges,Skyscrapers
+13,Which structure is most affected by aerodynamic flutter?,Tall Bridges,Small Houses,Dams,Tunnels
+14,What is the major advantage of cable-stayed bridges over suspension bridges?,Require fewer cables/towers,Cheaper steel,More decorative,Lighter concrete
+15,Which geotechnical test determines soil bearing capacity?,Plate Load Test,Slump Test,Impact Test,Tensile Test
+16,What is the main function of a cofferdam?,Provide dry working area underwater,Support concrete beams,Filter water,Measure soil strength
+17,Which failure occurs due to repeated load cycles even under low stress?,Fatigue Failure,Shear Failure,Brittle Fracture,Torsional Failure
+18,What is an isostatic structure?,A stable structure with determinable reactions,An unstable structure,A redundant structure,A flexible structure
+19,What is prestressing in concrete primarily used for?,Resisting tensile stresses,Reducing weight,Improving color,Increasing ductility
+20,What causes liquefaction in soils?,Loss of strength due to saturated conditions during earthquakes,Increase in density under compaction,Freezing of soil moisture,Chemical reaction with cement
+21,What is the Carnot efficiency dependent on?,Temperature difference between reservoirs,Pressure of gases,Volume of cylinder,Material of piston
+22,Which stress is caused by twisting?,Torsional Stress,Shear Stress,Compressive Stress,Tensile Stress
+23,What is the function of a supercharger in an engine?,Increase air intake pressure,Cool the engine,Reduce emissions,Control valve timing
+24,What does Reynolds number determine?,Flow regime (laminar or turbulent),Material stiffness,Engine efficiency,Bearing load capacity
+25,What is the function of a governor in power plants?,Maintain constant speed under load variation,Increase temperature,Lubricate bearings,Reduce friction
+26,Which cycle describes steam turbine operation?,Rankine Cycle,Otto Cycle,Carnot Cycle,Brayton Cycle
+27,What is the critical speed of a shaft?,Speed causing resonance,Maximum safe speed,Average operating speed,Minimum stable speed
+28,Which principle is used in hydraulic brakes?,Pascal’s Principle,Bernoulli’s Principle,Archimedes’ Principle,Hooke’s Law
+29,What is enthalpy a measure of?,Total heat content,Stress distribution,Elastic strain energy,Power factor
+30,What is the main drawback of using cast iron?,Brittleness,High strength,High ductility,Good machinability
+31,What is the difference between brittle and ductile fracture?,Plastic deformation before failure,Occurs suddenly,Caused by torsion only,No energy absorption
+32,What is the S-N curve used for?,Fatigue life prediction,Stress-strain analysis,Thermal expansion,Lubrication analysis
+33,What is cavitation in pumps?,Formation of vapor bubbles,Rusting of impeller,Overheating,Excess lubrication
+34,What does a thermodynamic cycle return to after completion?,Initial state,Maximum entropy,Lowest pressure,Critical temperature
+35,Which heat transfer mode requires no medium?,Radiation,Conduction,Convection,Diffusion
+36,What is the purpose of a flywheel in machines?,Smooth energy fluctuations,Control direction,Reduce torque,Store heat
+37,What is the purpose of a stress concentration factor?,Account for localized stresses,Calculate thermal conductivity,Measure ductility,Improve efficiency
+38,What kind of turbine is a Pelton wheel?,Impulse Turbine,Reaction Turbine,Steam Turbine,Wind Turbine
+39,What causes thermal expansion in solids?,Increased atomic vibrations,Phase change,Material density,Elastic strain
+40,Which law states entropy in an isolated system never decreases?,Second Law of Thermodynamics,First Law of Thermodynamics,Hooke’s Law,Pascal’s Law
+41,Which law explains electromagnetic induction?,Faraday’s Law,Coulomb’s Law,Kirchhoff’s Law,Lenz’s Law
+42,What does a B-H curve represent?,Magnetic hysteresis,Current-voltage,Frequency response,Resistance variation
+43,What is the power factor of a purely resistive circuit?,1,0,0.5,-1
+44,What is the main function of a Zener diode?,Voltage regulation,Signal amplification,Switching,Current measurement
+45,What is skin effect in conductors?,Current crowding near surface at high frequency,Heat loss due to conduction,Oxidation of metals,Capacitive leakage
+46,What is the principle behind operation of transformers?,Mutual Induction,Self Induction,Electrostatic Induction,Magnetoresistance
+47,What causes eddy current losses in transformers?,Changing magnetic flux,Overheating windings,Insulation failure,Poor grounding
+48,What is an operational amplifier ideally characterized by?,Infinite gain,Zero gain,High resistance,Low frequency
+49,What is the SI unit of magnetic flux?,Weber,Tesla,Henry,Farad
+50,Which device converts AC directly to DC without intermediate conversion?,Rectifier,Inverter,Amplifier,Oscillator
+51,What is the function of an SCR (Silicon Controlled Rectifier)?,Controlled rectification,Voltage regulation,Signal filtering,Amplification
+52,Which effect explains induced emf opposing the cause producing it?,Lenz’s Law,Ohm’s Law,Faraday’s Law,Kirchhoff’s Law
+53,What is corona discharge in transmission lines?,Ionization of air causing power loss,Sudden short circuit,Overheating of conductor,Resistance drop
+54,Which motor is widely used in household fans?,Single-phase Induction Motor,DC Shunt Motor,Synchronous Motor,Universal Motor
+55,What is the difference between synchronous and induction motors?,Rotor speed equals synchronous speed,Rotor is always faster,Rotor is always slower,No magnetic field
+56,What is a dielectric material used for?,Insulation in capacitors,Conducting wires,Electromagnetic induction,Magnetization
+57,Which device converts digital signals to analog?,DAC,ADC,Op-Amp,Filter
+58,What is the main reason superconductors are useful in power systems?,Zero resistance,High weight,High thermal expansion,Corrosion resistance
+59,What does THD stand for in power systems?,Total Harmonic Distortion,Thermal Heat Dissipation,Transient Harmonic Delay,Transmission Heat Drop
+60,What is the main application of Fourier Transform in electrical engineering?,Signal analysis,Heat transfer,Circuit protection,Load balancing
+61,Which equation governs diffusion rate of gases?,Fick’s Law,Boyle’s Law,Charles’s Law,Dalton’s Law
+62,What is Gibbs free energy a measure of?,Spontaneity of a reaction,System entropy,Heat capacity,Reaction rate
+63,Which process converts natural gas to liquid fuels?,Fischer-Tropsch Process,Haber Process,Polymerization,Electrolysis
+64,What is Le Chatelier’s principle used for?,Predicting reaction shift under stress,Calculating enthalpy,Determining density,Finding viscosity
+65,What is the purpose of a distillation column’s reflux?,Improve separation efficiency,Reduce pressure,Control temperature,Neutralize acids
+66,Which property defines a fluid’s resistance to flow?,Viscosity,Density,Specific heat,Compressibility
+67,What is a polymer with repeating amide groups called?,Nylon,Polyethylene,Polystyrene,Teflon
+68,What does the Arrhenius equation relate?,Rate constant to temperature,Concentration to pressure,Viscosity to flow,Density to volume
+69,Which law defines ideal gas behavior?,PV = nRT,F = ma,Q = mcΔT,E = mc²
+70,What is azeotrope in distillation?,Mixture with constant boiling point,High viscosity fluid,High density fluid,Corrosive chemical
+71,What does exothermic mean in chemical engineering?,Releases heat,Absorbs heat,Neutralizes acid,Forms precipitate
+72,Which catalyst is used in catalytic converters?,Platinum,Aluminum,Iron,Nickel
+73,What is cracking in petroleum refining used for?,Break long chains into shorter ones,Remove sulfur,Increase octane,Add hydrogen
+74,What does viscosity index measure in lubricants?,Change of viscosity with temperature,Density of liquid,Flash point,Freezing point
+75,What is polymer cross-linking?,Bonding between polymer chains,Chain scission,Addition of monomers,Gas diffusion
+76,What is the purpose of a heat exchanger?,Transfer heat between fluids,Compress gases,Change pressure,React chemicals
+77,What does heterogeneous catalyst mean?,Catalyst in different phase,Catalyst in same phase,Catalyst consumed,Catalyst as product
+78,What is the octane number a measure of?,Fuel’s resistance to knocking,Viscosity,Density,Flash point
+79,What is adsorption?,Adhesion of molecules on surface,Absorption in volume,Diffusion,Reaction rate
+80,What is the flash point of a liquid?,Lowest temperature at which it vaporizes to ignite,Boiling point,Freezing point,Critical point
+81,What is systems engineering focused on?,Integrating complex systems,Designing bridges,Building houses,Measuring soil strength
+82,What is TRIZ methodology?,Problem-solving theory of inventive thinking,Thermal resistance method,Testing reinforced iron zones,Transport risk index system
+83,What is the main purpose of Six Sigma in engineering?,Reduce defects,Increase weight,Increase speed,Improve aesthetics
+84,What does FMEA stand for?,Failure Modes and Effects Analysis,Final Mechanical Engineering Assessment,First Mode Energy Analysis,Fast Mechanical Engineering Application
+85,Which method helps compare design alternatives numerically?,Decision Matrix,Brainstorming,Sketching,Simulation
+86,What is concurrent engineering?,Parallel product development,One-at-a-time design,Old-fashioned design,Sequential management
+87,What is the role of ergonomics in engineering?,Designing human-centered systems,Reducing costs,Increasing size,Changing materials
+88,What is the Delphi method used for?,Forecasting with expert consensus,Measuring loads,Building prototypes,Modeling thermodynamics
+89,What is life cycle assessment (LCA)?,Environmental impact analysis,Material cost study,Prototype design,Energy analysis only
+90,What is root cause analysis used for?,Finding underlying problem,Making sketches,Building prototypes,Calculating loads
+91,What is concurrent design most useful for?,Shortening product time to market,Improving aesthetics,Measuring forces,Calculating loads
+92,What is Taguchi method used for?,Robust design optimization,Bridge design,Soil testing,Engine repair
+93,What is meant by redundancy in engineering systems?,Backup components for reliability,Extra decoration,Failure mechanism,Excess weight
+94,What is QFD (Quality Function Deployment)?,Translating customer needs into design,Finding fatigue failure,Calculating loads,Testing soil
+95,What is poka-yoke?,Error-proofing design,Rapid prototyping,Stress analysis,Risk assessment
+96,Which engineering principle is Kaizen associated with?,Continuous improvement,Safety factor,Heat transfer,Stress concentration
+97,What is the main purpose of benchmarking?,Compare against best standards,Compare material costs,Reduce size,Draw sketches
+98,What is lean engineering?,Eliminating waste,Adding weight,Fast sketching,Complex drawings
+99,What is agile methodology mainly applied to?,Software engineering,Civil structures,Mechanical design,Thermal systems
+100,What is DFMA (Design for Manufacturing and Assembly)?,Simplify product design for production,Increase decorative features,Complicate manufacturing,Only test software

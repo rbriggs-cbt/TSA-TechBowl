@@ -1,0 +1,101 @@
+#,Question,Correct Answer,Distractor 1,Distractor 2,Distractor 3
+1,Which type of bridge uses cables draped over towers?,Suspension Bridge,Beam Bridge,Arch Bridge,Cantilever Bridge
+2,What is the main advantage of using steel in skyscrapers?,High strength-to-weight ratio,Low cost,Easy to melt,Naturally flexible
+3,"Which type of load is constant, such as the weight of the structure itself?",Dead Load,Live Load,Dynamic Load,Thermal Load
+4,What is a geotechnical engineer most concerned with?,Soil and foundations,Road design,Electrical circuits,Bridge traffic flow
+5,What shape is most stable in structural engineering?,Triangle,Square,Circle,Rectangle
+6,Which dam design is curved to resist water pressure?,Arch Dam,Gravity Dam,Buttress Dam,Embankment Dam
+7,What is the main purpose of a cantilever?,Support without external bracing,Absorb vibration,Resist water pressure,Increase friction
+8,Which surveying tool uses lasers for accuracy?,Total Station,Spirit Level,Plumb Bob,Measuring Tape
+9,What is an environmental engineer’s main goal?,Protect human health and the environment,Build bridges,Design airplanes,Produce plastics
+10,Which road surface layer provides skid resistance?,Wearing Course,Base Course,Subgrade,Aggregate
+11,What is prestressed concrete?,Concrete under compression before loads,Lightweight concrete,Heated concrete,Painted concrete
+12,Which type of soil has the smallest particles?,Clay,Silt,Sand,Gravel
+13,What is urban planning focused on?,Designing cities and land use,Airplane traffic control,Forest management,Software systems
+14,Which factor increases wind load on buildings?,Height,Color,Paint type,Material density
+15,What does LEED certification measure?,Sustainable building design,Bridge safety,Electrical efficiency,Mechanical strength
+16,What is a retaining wall designed to resist?,Lateral soil pressure,Dead load,Live load,Dynamic load
+17,Which test measures soil strength?,Shear Test,Tensile Test,Hardness Test,Fatigue Test
+18,What is the main purpose of an expansion joint?,Allow movement from temperature changes,Strengthen concrete,Connect two beams,Seal against water
+19,What is the main advantage of using asphalt for roads?,Flexibility and easy repair,Cheapest material,Longest lifespan,No maintenance needed
+20,What is hydrology the study of?,Movement of water,Bridge stability,Concrete curing,Earthquakes
+21,Which law explains why rockets propel forward?,Newton’s Third Law,Newton’s First Law,Newton’s Second Law,Law of Conservation of Energy
+22,What is the efficiency ratio of output work to input work called?,Mechanical Efficiency,Torque Ratio,Load Factor,Power Factor
+23,What is the function of a camshaft in an engine?,Controls valve timing,Provides fuel,Cools engine,Reduces friction
+24,What does a clutch do in a vehicle?,Engages and disengages power,Provides steering,Cools the brakes,Increases horsepower
+25,Which type of gear increases torque but reduces speed?,Worm Gear,Spur Gear,Bevel Gear,Helical Gear
+26,Which fluid property affects hydraulic systems most?,Viscosity,Color,Turbidity,Temperature only
+27,What is tensile strength?,Resistance to being pulled apart,Resistance to bending,Resistance to compression,Resistance to heat
+28,What type of energy is stored in a compressed spring?,Elastic Potential,Kinetic,Thermal,Nuclear
+29,Which cycle explains internal combustion engines?,Otto Cycle,Rankine Cycle,Brayton Cycle,Carnot Cycle
+30,What type of bearing reduces friction between moving parts?,Ball Bearing,Roller,Magnetic,Plain
+31,What is the SI unit of pressure?,Pascal,Newton,Joule,Bar
+32,Which cooling system uses liquid circulation?,Radiator Cooling,Air Cooling,Oil Cooling,Exhaust Cooling
+33,What is the function of a flywheel?,Stores rotational energy,Controls brakes,Provides fuel,Absorbs shocks
+34,Which type of lever is a wheelbarrow?,Second Class Lever,First Class Lever,Third Class Lever,Compound Lever
+35,Which principle makes airplanes fly?,Bernoulli’s Principle,Pascal’s Principle,Archimedes’ Principle,Hooke’s Law
+36,What is fatigue failure in materials?,Failure due to repeated stress cycles,Failure under one heavy load,Failure under heat,Failure under corrosion
+37,Which metal is used in jet engines for high temperature resistance?,Titanium,Aluminum,Copper,Zinc
+38,What is the function of a governor in engines?,Controls speed,Controls brakes,Provides fuel,Lubricates parts
+39,What type of machine is a wind turbine?,Energy Converter,Simple Machine,Hydraulic Machine,Thermal Machine
+40,What kind of system uses pressurized oil to transmit power?,Hydraulic System,Pneumatic System,Thermal System,Magnetic System
+41,What is the SI unit of electrical resistance?,Ohm,Ampere,Volt,Watt
+42,Which material is a semiconductor?,Silicon,Copper,Iron,Glass
+43,"Which law relates voltage, current, and resistance?",Ohm’s Law,Faraday’s Law,Kirchhoff’s Law,Coulomb’s Law
+44,What does a rectifier convert?,AC to DC,DC to AC,Voltage to Current,Current to Voltage
+45,What device stores energy in a magnetic field?,Inductor,Capacitor,Resistor,Diode
+46,Which component is polarized and must be connected correctly?,Electrolytic Capacitor,Resistor,Inductor,Fuse
+47,Which law states that current entering a junction equals current leaving?,Kirchhoff’s Current Law,Ohm’s Law,Faraday’s Law,Coulomb’s Law
+48,What does a transformer change?,Voltage levels,Current direction,Power frequency,Energy type
+49,Which device protects against short circuits?,Circuit Breaker,Transistor,Resistor,Diode
+50,What is the main function of a transistor?,Amplify or switch signals,Store charge,Convert AC to DC,Block current
+51,What is alternating current frequency in the U.S.?,60 Hz,50 Hz,100 Hz,120 Hz
+52,Which energy source powers a fuel cell?,Hydrogen,Coal,Gasoline,Uranium
+53,What is the primary function of grounding in circuits?,Safety,Increase voltage,Reduce current,Amplify signals
+54,What does a multimeter measure?,"Voltage, Current, Resistance",Power only,Capacitance only,Frequency only
+55,What device is used for wireless communication?,Antenna,Resistor,Battery,Switch
+56,What is the SI unit of capacitance?,Farad,Henry,Joule,Newton
+57,What is resonance in an electrical circuit?,Natural frequency response,Short circuit,Overheating,Current overload
+58,Which material is superconductive near absolute zero?,Mercury,Copper,Aluminum,Iron
+59,What is the main advantage of parallel circuits over series?,Independent operation of components,Higher resistance,Lower efficiency,Less power delivered
+60,What principle is used in electric generators?,Electromagnetic Induction,Ohm’s Law,Conservation of Momentum,Thermal Expansion
+61,Which process breaks down crude oil into components?,Fractional Distillation,Filtration,Sublimation,Evaporation
+62,What is the Haber process used to make?,Ammonia,Oxygen,Methane,Carbon Dioxide
+63,What is polymerization?,Combining small molecules into large chains,Breaking down polymers,Dissolving salts,Heating gases
+64,Which acid is found in car batteries?,Sulfuric Acid,Hydrochloric Acid,Nitric Acid,Acetic Acid
+65,What is corrosion of iron called?,Rusting,Galvanizing,Plating,Alloying
+66,Which law relates pressure and volume of gases?,Boyle’s Law,Charles’s Law,Dalton’s Law,Avogadro’s Law
+67,Which process makes steel from iron?,Bessemer Process,Haber Process,Fractional Distillation,Polymerization
+68,What is cracking in petroleum refining?,Breaking long hydrocarbons,Mixing fuels,Removing impurities,Adding additives
+69,What is the chemical formula for methane?,CH₄,C₂H₆,C₃H₈,C₄H₁₀
+70,What is electroplating used for?,Coating metals,Purifying gases,Making plastics,Heating alloys
+71,Which material has the highest tensile strength?,Carbon Fiber,Aluminum,Steel,Brass
+72,Which gas causes acid rain?,Sulfur Dioxide,Nitrogen,Oxygen,Helium
+73,Which polymer is used in bulletproof vests?,Kevlar,Polyethylene,Nylon,Polypropylene
+74,What is the pH of pure water?,7,5,9,11
+75,Which chemical reaction releases heat?,Exothermic,Endothermic,Neutralization,Combustion
+76,What is the process of removing salt from seawater?,Desalination,Condensation,Evaporation,Distillation
+77,Which gas is a greenhouse gas?,Carbon Dioxide,Oxygen,Nitrogen,Hydrogen
+78,What is the chemical formula for table sugar?,C₁₂H₂₂O₁₁,C₆H₁₂O₆,NaCl,H₂O
+79,What is alloying?,Mixing metals,Purifying gases,Dissolving salts,Heating liquids
+80,What does a catalyst do?,Speeds up reaction,Slows down reaction,Stops reaction,Increases volume
+81,Which step comes after brainstorming in the design process?,Develop and Test Prototypes,Identify Problem,Research,Communicate Results
+82,What is reverse engineering?,Analyzing a product to see how it works,Designing backwards,Reversing engines,Undoing a process
+83,What is the main goal of failure analysis?,Find cause of failure,Increase cost,Reduce speed,Improve decoration
+84,Which engineer designs artificial organs?,Biomedical Engineer,Civil Engineer,Mechanical Engineer,Aerospace Engineer
+85,What is a trade-off in engineering design?,Compromise between factors,Extra feature,Design mistake,Unnecessary part
+86,Which skill is most important in teamwork?,Communication,Cooking,Dancing,Singing
+87,What is sustainable engineering?,Designs that meet present needs without harming future,Fastest production,Cheapest cost,Heaviest materials
+88,Which document legally protects an invention?,Patent,Blueprint,Research Paper,Prototype
+89,What is ergonomics?,Designing for human comfort and safety,Designing for speed,Designing for cost,Designing only for size
+90,What is a technical drawing used for?,Communicating detailed designs,Decorating projects,Writing reports,Coding software
+91,What is a feasibility study?,Analysis of project practicality,List of materials,Blueprint drawing,Prototype test
+92,Which engineer works with satellites?,Aerospace Engineer,Civil Engineer,Chemical Engineer,Mechanical Engineer
+93,What is the main purpose of simulation software?,Model real-world conditions,Entertain,Draw sketches,Store data
+94,What is the role of ethics in engineering?,Guide responsible decisions,Speed up work,Reduce cost,Increase profit only
+95,Which engineer focuses on renewable energy systems?,Energy Engineer,Civil Engineer,Biomedical Engineer,Nuclear Engineer
+96,What does scalability mean in design?,Ability to expand capacity,Shrinking design,Making cheaper,Reusing parts
+97,Which tool is used to analyze project risks?,Risk Assessment Matrix,Blueprint,Prototype,Timeline
+98,What does interdisciplinary mean in engineering?,Involving multiple fields,Working alone,Single discipline,No collaboration
+99,What is innovation mainly about?,Applying new ideas,Repeating old designs,Copying,Avoiding change
+100,Which engineer designs control systems?,Control Engineer,Civil Engineer,Chemical Engineer,Environmental Engineer
