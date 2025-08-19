@@ -4,11 +4,41 @@
     box-sizing: border-box;
 }
 
+:root {
+    --vh: 1vh;
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: linear-gradient(135deg, #1E3A8A 0%, #DC143C 100%);
     min-height: 100vh;
+    min-height: calc(var(--vh, 1vh) * 100);
     color: #333;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+}
+
+/* Touch device specific styles */
+.touch-device .tile,
+.touch-device .option-btn,
+.touch-device .bts-option-btn,
+.touch-device button {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.touch-device .tile:active,
+.touch-device .option-btn:active,
+.touch-device .bts-option-btn:active,
+.touch-device button:active {
+    transform: scale(0.98);
+    transition: transform 0.1s ease;
 }
 
 .page {
@@ -507,19 +537,302 @@ body {
     
     .menu-tiles {
         grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .tile {
+        padding: 30px 20px;
+    }
+    
+    .tile h2 {
+        font-size: 1.5em;
     }
     
     .quiz-options {
         grid-template-columns: 1fr;
+        gap: 12px;
+    }
+    
+    .bts-options {
+        grid-template-columns: 1fr;
+        gap: 12px;
     }
     
     .quiz-info {
         flex-direction: column;
         gap: 10px;
+        padding: 12px;
+    }
+    
+    .bts-info {
+        flex-direction: column;
+        gap: 10px;
+        font-size: 1rem;
     }
     
     .results-actions {
         flex-direction: column;
+        gap: 12px;
+    }
+    
+    .card-controls {
+        flex-direction: column;
+        gap: 12px;
+    }
+    
+    .login-container {
+        margin: 50px auto;
+        padding: 30px 20px;
+        max-width: 90%;
+    }
+    
+    .setup-container {
+        margin: 30px auto;
+        padding: 30px 20px;
+        max-width: 90%;
+    }
+    
+    .practice-container {
+        margin: 20px auto;
+        padding: 30px 20px;
+        max-width: 95%;
+    }
+    
+    .quiz-container {
+        margin: 20px auto;
+        padding: 30px 20px;
+        max-width: 95%;
+    }
+    
+    .bts-container {
+        margin: 30px auto;
+        padding: 30px 20px;
+        max-width: 95%;
+    }
+    
+    .results-container {
+        margin: 30px auto;
+        padding: 30px 20px;
+        max-width: 95%;
+    }
+    
+    .flashcard {
+        padding: 30px 20px;
+        min-height: 250px;
+    }
+    
+    .question {
+        font-size: 1.3em;
+    }
+    
+    .answer {
+        font-size: 1.1em;
+        padding: 15px;
+    }
+    
+    .option-btn, .bts-option-btn {
+        padding: 15px;
+        font-size: 14px;
+        min-height: 60px;
+    }
+    
+    .menu-container h1 {
+        font-size: 2.5em;
+        margin-bottom: 30px;
+    }
+    
+    .bts-header h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .page {
+        padding: 10px;
+    }
+    
+    .login-container {
+        margin: 30px auto;
+        padding: 25px 15px;
+    }
+    
+    .login-container h1 {
+        font-size: 2em;
+    }
+    
+    .menu-container h1 {
+        font-size: 2em;
+        margin-bottom: 25px;
+    }
+    
+    .tile {
+        padding: 25px 15px;
+    }
+    
+    .tile h2 {
+        font-size: 1.4em;
+    }
+    
+    .tile p {
+        font-size: 14px;
+    }
+    
+    .setup-container, .practice-container, .quiz-container, .bts-container, .results-container {
+        padding: 25px 15px;
+        margin: 15px auto;
+    }
+    
+    .flashcard {
+        padding: 25px 15px;
+        min-height: 200px;
+    }
+    
+    .question {
+        font-size: 1.2em;
+    }
+    
+    .answer {
+        font-size: 1em;
+        padding: 12px;
+    }
+    
+    .option-btn, .bts-option-btn {
+        padding: 12px;
+        font-size: 13px;
+        min-height: 50px;
+    }
+    
+    .quiz-info, .bts-info {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+    
+    .bts-header h1 {
+        font-size: 1.8rem;
+    }
+    
+    .form-group select, .login-form input {
+        padding: 10px;
+        font-size: 14px;
+    }
+    
+    .setup-form button, .login-form button {
+        padding: 12px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 360px) {
+    .page {
+        padding: 8px;
+    }
+    
+    .login-container, .setup-container, .practice-container, .quiz-container, .bts-container, .results-container {
+        padding: 20px 12px;
+        margin: 10px auto;
+    }
+    
+    .tile {
+        padding: 20px 12px;
+    }
+    
+    .flashcard {
+        padding: 20px 12px;
+    }
+    
+    .option-btn, .bts-option-btn {
+        padding: 10px;
+        font-size: 12px;
+    }
+    
+    .menu-container h1 {
+        font-size: 1.8em;
+    }
+    
+    .bts-header h1 {
+        font-size: 1.6rem;
+    }
+}
+
+/* Touch-friendly improvements for mobile */
+@media (hover: none) and (pointer: coarse) {
+    .tile, .option-btn, .bts-option-btn, button {
+        min-height: 44px; /* Apple's recommended minimum touch target size */
+    }
+    
+    .option-btn, .bts-option-btn {
+        min-height: 60px;
+    }
+    
+    .tile {
+        min-height: 120px;
+    }
+    
+    /* Increase touch targets for mobile */
+    .card-controls button {
+        padding: 15px 20px;
+        min-height: 44px;
+    }
+    
+    .results-actions button {
+        padding: 15px 20px;
+        min-height: 44px;
+    }
+    
+    .logout-btn {
+        padding: 15px 20px;
+        min-height: 44px;
+    }
+}
+
+/* Landscape orientation adjustments for mobile */
+@media (max-width: 768px) and (orientation: landscape) {
+    .page {
+        padding: 10px;
+    }
+    
+    .login-container {
+        margin: 20px auto;
+    }
+    
+    .menu-container h1 {
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+    
+    .tile {
+        padding: 20px;
+    }
+    
+    .flashcard {
+        min-height: 180px;
+        padding: 20px;
+    }
+}
+
+/* High DPI displays */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .tile, .option-btn, .bts-option-btn, button {
+        border-width: 0.5px;
+    }
+}
+
+/* Print styles */
+@media print {
+    .page {
+        display: block !important;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .tile, .option-btn, .bts-option-btn, button {
+        box-shadow: none;
+        border: 1px solid #ccc;
+    }
+    
+    .bts-container {
+        background: white !important;
+        color: black !important;
     }
 }
 

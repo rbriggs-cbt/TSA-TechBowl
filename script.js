@@ -505,6 +505,9 @@ document.addEventListener('DOMContentLoaded', function() {
     // Load the question bank from external file
     // The questionBank variable is already available from questionBank.js
     
+    // Mobile-specific optimizations
+    setupMobileOptimizations();
+    
     document.getElementById('password').addEventListener('keypress', function(e) {
         if (e.key === 'Enter') {
             login();
@@ -517,3 +520,50 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+
+// Mobile optimizations
+function setupMobileOptimizations() {
+    // Prevent zoom on double tap for iOS
+    let lastTouchEnd = 0;
+    document.addEventListener('touchend', function(event) {
+        const now = (new Date()).getTime();
+        if (now - lastTouchEnd <= 300) {
+            event.preventDefault();
+        }
+        lastTouchEnd = now;
+    }, false);
+    
+    // Improve touch targets for mobile
+    if ('ontouchstart' in window) {
+        document.body.classList.add('touch-device');
+        
+        // Add touch feedback for buttons
+        const buttons = document.querySelectorAll('button, .tile, .option-btn, .bts-option-btn');
+        buttons.forEach(button => {
+            button.addEventListener('touchstart', function() {
+                this.style.transform = 'scale(0.98)';
+            });
+            
+            button.addEventListener('touchend', function() {
+                this.style.transform = '';
+            });
+        });
+    }
+    
+    // Handle viewport height for mobile browsers
+    function setViewportHeight() {
+        const vh = window.innerHeight * 0.01;
+        document.documentElement.style.setProperty('--vh', `${vh}px`);
+    }
+    
+    setViewportHeight();
+    window.addEventListener('resize', setViewportHeight);
+    window.addEventListener('orientationchange', setViewportHeight);
+    
+    // Prevent pull-to-refresh on mobile
+    document.body.addEventListener('touchmove', function(e) {
+        if (e.target.closest('.quiz-container, .bts-container, .practice-container')) {
+            e.preventDefault();
+        }
+    }, { passive: false });
+}
