@@ -29,7 +29,7 @@ A comprehensive web application for TSA (Technology Student Association) Tech Bo
 
 ## 🔐 Login
 
-**Password:** `M0n7R0ckTSAT3c#B0wl`
+**Password:** `password`
 
 *Username can be anything - only password matters*
 
